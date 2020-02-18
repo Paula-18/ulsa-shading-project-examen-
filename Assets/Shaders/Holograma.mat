@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2040786473596362725
+--- !u!114 &-8154623400113025994
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline-Basic2D
-  m_Shader: {fileID: -6465566751694194690, guid: cb8d083284d80af409cc4182d23fbf1f,
+  m_Name: Holograma
+  m_Shader: {fileID: -6465566751694194690, guid: 3645651400c1f45409f9d19ea2802425,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -49,10 +49,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 08d7c712aecfeae4aa16def93fdac82d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTexture:
-        m_Texture: {fileID: 2800000, guid: 08d7c712aecfeae4aa16def93fdac82d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -65,11 +61,8 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _var2DBasic_5FE85F2C_Texture2DEE21FAA1_1427915394:
-        m_Texture: {fileID: 2800000, guid: 08d7c712aecfeae4aa16def93fdac82d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_74B829D7: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -77,14 +70,15 @@ Material:
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _FlickSpeed: 2.9
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlinePower: 0.2
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _ScrollSpeed: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -93,11 +87,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_3522A416: {r: 1, g: 1, b: 1, a: 1}
-    - Color_71D451EB: {r: 1, g: 1, b: 1, a: 1}
-    - Color_8AEF4D25: {r: 1, g: 0.06914891, b: 0, a: 1}
+    - Color_416D89DF: {r: 0, g: 1, b: 0.6784314, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Outline: {r: 0.19696999, g: 1, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
