@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fresnel
-  m_Shader: {fileID: -6465566751694194690, guid: 0f1da2be07323c34ba70408f70a0b435,
+  m_Shader: {fileID: -6465566751694194690, guid: 3c3068ad923138841b3529ed8ab05417,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -49,8 +49,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Holograma2_447CE70F_Texture2D1A59CA6A_1310009008:
+        m_Texture: {fileID: 2800000, guid: 08d7c712aecfeae4aa16def93fdac82d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: 08d7c712aecfeae4aa16def93fdac82d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -65,12 +69,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_5A8AD959_Out_0:
+        m_Texture: {fileID: 2800000, guid: 8347f581d6c4cc14b91db745b09e657f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2DAsset_888083BA_Out_0:
         m_Texture: {fileID: 2800000, guid: 08d7c712aecfeae4aa16def93fdac82d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_202B9E85: 0
+    - Vector1_2E2370F9: 0
     - Vector1_3724C3C2: 1.48
+    - Vector1_44229D33: 0
+    - Vector1_595E4D30: 2.8
+    - Vector1_5DD6EAD0: 0
+    - Vector1_6D9E0B99: 5.2
+    - Vector1_D37CAFDA: 3.49
+    - Vector1_D82C150A: 2.2
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -82,7 +98,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intensity: 5.88
+    - _Intensity: 5.6
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _QueueOffset: 0
@@ -95,6 +111,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_2DE73C2C: {r: 0.62408876, g: 1, b: 0, a: 1}
+    - Color_824DAE67: {r: 0.25207186, g: 0, b: 1, a: 1}
+    - Color_B7BCFDE9: {r: 0, g: 0.9515676, b: 1, a: 1}
+    - Color_F319ADA1: {r: 1, g: 0, b: 0.17647076, a: 1}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
